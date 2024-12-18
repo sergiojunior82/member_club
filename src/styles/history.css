@@ -1,0 +1,100 @@
+.history {
+  grid-area: history;
+
+  background-color: var(--base-gray-100);
+  border-radius: 1rem;
+
+  padding: 2rem;
+
+  width: 100%;
+  height: 22.5rem;
+  max-height: 22.5rem;
+
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--base-gray-300) var(--base-gray-200);
+}
+
+
+.history .header-history {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 1rem;
+}
+
+.history .header-history p {
+  text-transform: uppercase;
+
+  color: var(--base-gray-500);
+  font-weight: bold;
+  font-size: var(--heading-subtitle-sm);
+  line-height: 1.4;
+
+}
+
+.history .header-history span {
+  color: var(--base-gray-500);
+  font-size: var(--body-text-xs);
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 1px;
+  background-color: var(--base-gray-200);
+}
+
+.history-list {
+  margin-top: 1rem;
+}
+
+.history-card {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 0.75rem;
+}
+
+.date-hour p {
+  color: var(--base-gray-600);
+  font-weight: bold;
+  font-size: var(--heading-subtitle-sm);
+  line-height: 1.4;
+}
+
+.date-hour span {
+  color: var(--base-gray-500);
+  font-size: var(--body-text-xs);
+}
+
+.circle-check {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 2rem;
+  height: 2rem;
+}
+
+.circle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--main-green);
+  opacity: 0.12; /* Aplicado apenas no círculo */
+}
+
+.circle-check i {
+  position: relative;
+  font-size: 1.5rem;
+  color: var(--main-green); /* Cor visível para o ícone */
+  opacity: 1; /* Mantém o ícone totalmente opaco */
+}

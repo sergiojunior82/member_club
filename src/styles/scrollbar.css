@@ -1,0 +1,16 @@
+.history::-webkit-scrollbar {
+  width: 8px;
+}
+
+.history::-webkit-scrollbar-track {
+  background: var(--base-gray-200); /* Cor de fundo */
+}
+
+.history::-webkit-scrollbar-thumb {
+  background-color: var(--main-green); /* Cor da barra */
+  border-radius: 4px; /* Borda arredondada */
+}
+
+.history::-webkit-scrollbar-button {
+  display: none;
+}

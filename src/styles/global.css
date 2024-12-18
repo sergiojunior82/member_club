@@ -1,0 +1,49 @@
+:root {
+  --main-pink: #D658B3;
+  --main-green: #45B442;
+  --base-white: #FFFFFF;
+  --base-gray-100: #F4F1F2;
+  --base-gray-200: #E9E7E9;
+  --base-gray-300: #DFDCDF;
+  --base-gray-400: #CECACD;
+  --base-gray-500: #756C71;
+  --base-gray-600: #4A4448;
+  --base-gray-700: #332B31;
+
+  /* Text-size styles */
+  --heading-title-md: 24px;
+  --heading-title-sm: 18px;
+  --heading-subtitle-md: 14px;
+  --heading-subtitle-sm: 12px;
+  --body-text-md: 16px;
+  --body-text-sm: 14px;
+  --body-text-xs: 12px;
+
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+  background-color: var(--base-gray-200);
+  display: flex;
+  flex-direction: column;
+  width: 57rem;
+  margin: 0 auto;
+}
+
+input {
+  font-family: "Oxygen", sans-serif;
+}
+
+.avatar {
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+  filter: blur(0.3px);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-border img {
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  image-rendering: -webkit-optimize-contrast;
+}

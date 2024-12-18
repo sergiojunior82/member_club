@@ -1,0 +1,26 @@
+@import url(scrollbar.css);
+@import url(profile.css);
+@import url(fidelity-card.css);
+@import url(history.css);
+@import url(remaining-cuts.css);
+
+main {
+  margin-top: 4rem;
+}
+
+.main-container {
+  display: grid;
+  
+  grid-template-areas:
+    "profile fidelity-card"
+    "history fidelity-card"
+    "history remaining-cuts"; 
+
+  gap: 1rem 1.5rem;
+
+  align-items: start;
+  width: 100%;
+  max-width: 57rem; 
+  margin: 0 auto;
+}
+

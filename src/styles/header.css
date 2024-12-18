@@ -1,0 +1,12 @@
+header {
+  display: flex;
+  margin: 0 auto;
+
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+header img {
+  width: 7.25rem;
+  height: 3.5rem;
+}
